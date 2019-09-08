@@ -1,56 +1,74 @@
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 title: Broken Lantern
-description: Stuff
+description: Hobby programming and electronics projects and blog posts
+subtitle: Hobby programming and electronics projects and blog posts
 locale: "en-US"
 title_separator: "-"
 name: "David Cottingham"
 url: https://brokenlantern.com
 repository: davidcottingham/davidcottingham.github.io
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#search: true
+#search_full_content: true
+#search_provider: google
+#atom_feed:
+#  path: /Blog/feed.xml
 include: ["_pages"]
 
 author:
   name: David Cottingham
-  avatar: #
-  bio: This is my biography lololol
-  location: From Nowhere
-  email: davidcottingham@gmail.com
+  #avatar: #
+  #bio: Just trying to figure things out. Hobby programming and electronics projects and blog posts
+  #location: USA
+  #email: davidcottingham@gmail.com
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/davidcottingham"
+
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/davidcottingham"
 
+# Blog posts
+permalink: /Blog/:year/:month/:day/:title/
+#paginate: 10 # amount of posts to show
+#paginate_path: /Blog/page:num/
+timezone: America/New_York
+
 defaults:
-  # _posts
+  # blog posts
   - scope:
-      path: ""
+      path: "Blog"
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
       share: true
       related: true
-  # _pages
+  # pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+      share: true
+      related: true
+  # sidebar nav
+  - scope:
+      path: ""
+    values:
+      sidebar:
+        nav: "side"
 
 plugins:
-  - jekyll-paginate
+#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed

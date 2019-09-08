@@ -1,0 +1,18 @@
+# top navigation
+main:
+  - title: "Projects"
+    url: /Projects/
+  - title: "Blog"
+    url: /Blog/
+
+# sidebar
+side:
+  - title: "Recent Projects"
+    url: /Projects/
+    children:
+      - title: "GB Dumper"
+        url: /Projects/GB Dumper/
+  - title: "Blog"
+    url: /Blog/
+    children:
+      include: recent_blog.html
