@@ -7,7 +7,7 @@ main:
 
 # sidebar
 side:
-  - title: "Recent Projects"
+  - title: "Projects"
     url: /Projects/
     children:
       - title: "GB Dumper"
@@ -15,4 +15,7 @@ side:
   - title: "Blog"
     url: /Blog/
     children:
-      include: recent_blog.html
+      - title: "Recent Blog Posts"
+        url: /Blog/
+      - title: "Browse Blog by Tag"
+        url: /Blog/Tags/

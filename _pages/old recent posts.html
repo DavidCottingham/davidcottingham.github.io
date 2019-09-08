@@ -1,0 +1,11 @@
+---
+layout: single
+permalink: /old recent posts/
+classes: wide
+---
+<h2>Recent posts:</h2>
+<ul class="summary_list">
+  {% for post in site.posts %}
+    {% include post_summary.html %}
+  {% endfor %}
+</ul>

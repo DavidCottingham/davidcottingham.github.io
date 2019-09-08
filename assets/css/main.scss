@@ -1,0 +1,50 @@
+---
+#main style override
+---
+@charset "utf-8";
+
+.site-_title {
+  font-size: 36px;
+}
+.btn-reddit {
+  background-color: #FF4300;
+  color: white;
+}
+
+ul.summary_list {
+  columns: 2;
+  column-fill: balance;
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.summary_container {
+  break-inside: avoid-column;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+.summary_title {
+  font-size: 28px;
+}
+.summary_readtime {
+  font-size: 14px;
+}
+.summary_tag_list {
+  font-size: 12px;
+}
+.summary_tag_head {
+  font-size: 26px;
+}
+.summary_date {
+  font-size: 12px;
+}
+.summary_excerpt {
+  line-height: 1em;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials

@@ -1,6 +1,11 @@
 ---
 layout: single
+classes: wide
 ---
-Here are the projects of mine that I thought deserved their own pages: [Projects](/Projects/)
+[Projects](/Projects/){: .btn .btn--primary .btn--x-large}
+<br/>
+Here are my projects that I thought deserved a project page of their own.
 
-Here is my blog where I post incremental project updates, smaller one-off projects, random ideas, or just nonsense ramblings: [Blog](/Blog/)
+[Blog](/Blog/){: .btn .btn--primary .btn--x-large}
+<br/>
+Here is my blog where I post incremental project updates, smaller one-off projects, random ideas, or just nonsense ramblings.

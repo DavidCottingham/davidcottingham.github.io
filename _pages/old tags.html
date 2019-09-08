@@ -1,0 +1,21 @@
+---
+permalink: /old blog/
+layout: single
+classes: wide
+---
+<p>This is my blog</p>
+<h2>Blog posts by tag:</h2>
+{% for tag in site.tags %}
+  <div class="summary_tag_head">{{ tag[0] }}</div>
+  <ul class="summary_list">
+    {% for post in tag[1] %}
+      {% include post_summary.html %}
+    {% endfor %}
+  </ul>
+{% endfor %}
+<h2>Recent posts:</h2>
+<ul class="summary_list">
+  {% for post in site.posts %}
+    {% include post_summary.html %}
+  {% endfor %}
+</ul>

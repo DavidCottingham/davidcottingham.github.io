@@ -1,6 +1,7 @@
 ---
 permalink: /Projects/
 title: Projects
+classes: wide
 ---
-This is a list of projects:
+Here are the projects of mine that I thought deserved their own pages
 * [GB Dumper](./GB Dumper/)

@@ -1,29 +1,32 @@
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 title: Broken Lantern
-description: Hobby programming and electronics projects and blog posts
-subtitle: Hobby programming and electronics projects and blog posts
+description: Hobby programming and electronics projects and blog
+subtitle: Hobby programming and electronics projects and blog
 locale: "en-US"
 title_separator: "-"
+logo: "/assets/images/lantern_icon.png"
 name: "David Cottingham"
 url: https://brokenlantern.com
 repository: davidcottingham/davidcottingham.github.io
-#search: true
-#search_full_content: true
-#search_provider: google
-#atom_feed:
-#  path: /Blog/feed.xml
+search: true
+search_full_content: true
+atom_feed:
+  path: /Blog/feed.xml
+feed:
+  path: /Blog/feed.xml
 include: ["_pages"]
 
 author:
   name: David Cottingham
-  #avatar: #
+  avatar: "https://avatars1.githubusercontent.com/u/857191"
+  #https://avatars1.githubusercontent.com/u/857191
   #bio: Just trying to figure things out. Hobby programming and electronics projects and blog posts
   #location: USA
-  #email: davidcottingham@gmail.com
+  email: davidcottingham@gmail.com
   links:
-    #- label: "Email"
-    #  icon: "fas fa-fw fa-envelope-square"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/davidcottingham"
@@ -40,6 +43,10 @@ permalink: /Blog/:year/:month/:day/:title/
 #paginate_path: /Blog/page:num/
 timezone: America/New_York
 
+tag_archive:
+  type: liquid
+  path: /Blog/Tags/
+
 defaults:
   # blog posts
   - scope:
@@ -51,6 +58,7 @@ defaults:
       read_time: true
       share: true
       related: true
+      classes: wide
   # pages
   - scope:
       path: ""
@@ -59,7 +67,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      related: true
   # sidebar nav
   - scope:
       path: ""
