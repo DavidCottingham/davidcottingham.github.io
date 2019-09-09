@@ -5,7 +5,7 @@ description: Hobby programming and electronics projects and blog
 subtitle: Hobby programming and electronics projects and blog
 locale: "en-US"
 title_separator: "-"
-logo: "/assets/images/lantern_icon.png"
+logo: "/assets/images/lantern_icon_no_bg.png"
 name: "David Cottingham"
 url: https://brokenlantern.com
 repository: davidcottingham/davidcottingham.github.io
@@ -19,9 +19,10 @@ include: ["_pages"]
 
 author:
   name: David Cottingham
-  avatar: "https://avatars1.githubusercontent.com/u/857191"
-  #https://avatars1.githubusercontent.com/u/857191
-  #bio: Just trying to figure things out. Hobby programming and electronics projects and blog posts
+  avatar: "/assets/images/lantern_icon_square_no_bg.png"
+  #avatar: "https://avatars1.githubusercontent.com/u/857191"
+  bio: #
+  #bio: Just trying to figure things out. Hobby programming and electronics projects and blog
   #location: USA
   email: davidcottingham@gmail.com
   links:
@@ -39,8 +40,6 @@ footer:
 
 # Blog posts
 permalink: /Blog/:year/:month/:day/:title/
-#paginate: 10 # amount of posts to show
-#paginate_path: /Blog/page:num/
 timezone: America/New_York
 
 tag_archive:
@@ -75,7 +74,6 @@ defaults:
         nav: "side"
 
 plugins:
-#  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed

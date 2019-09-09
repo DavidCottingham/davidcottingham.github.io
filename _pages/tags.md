@@ -2,7 +2,6 @@
 layout: tags
 permalink: /Blog/Tags/
 classes: wide
+title: "Blog posts by tag"
 ---
-Blog posts sorted by year.
-
-For a list of recent posts, checkout [this page](/Blog/).
+For a list of recent posts, check out the main [blog](/Blog/) page .

@@ -1,7 +1,9 @@
 ---
 layout: single
 classes: wide
+title: Broken Lantern
 ---
+
 [Projects](/Projects/){: .btn .btn--primary .btn--x-large}
 <br/>
 Here are my projects that I thought deserved a project page of their own.
