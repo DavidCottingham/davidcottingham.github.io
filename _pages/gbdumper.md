@@ -4,8 +4,8 @@ title: GB Dumper
 toc: true
 toc_label: GB Dumper
 toc_icon: microchip
-last_modified_at: 2016-03-09
-related_blog_tag: "gbdumper"
+last_modified_at: 2019-09-08
+related_tag: "gbdumper"
 ---
 Introduction to project
 ## Setup
@@ -19,6 +19,4 @@ This is a minor step
 ## Step 2
 This is step 2
 
-___
-## Related blog posts
-See also related blog posts under the tag: <a href="/Blog/Tags/#{{ page.related_blog_tag }}">{{ page.related_blog_tag }}</a>
+{% include related_posts.md %}
