@@ -1,22 +1,34 @@
+#Site-wide configuration
+
+#Theme and theme skin
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "neon"
+#Title in browser window titlebar at the top of the pages
 title: Broken Lantern
-description: Hobby programming and electronics projects and blog
+#Subtitle shown below title at top of pages. Optional
 subtitle: Hobby programming and electronics projects and blog
-locale: "en-US"
-title_separator: "-"
+#Image shown to right of title and subtitle at top of pages
 logo: "/assets/images/lantern_icon_no_bg.png"
+#Separates site title and page titles in browser window titlebar
+title_separator: "-"
+#SEO description
+description: Hobby programming and electronics projects and blog
+locale: "en-US"
 name: "David Cottingham"
 url: https://brokenlantern.com
 repository: davidcottingham/davidcottingham.github.io
+#Enable built-in site search
 search: true
 search_full_content: true
+#Set non-default feed xml file location. Need both variables for different settings
 atom_feed:
   path: /Blog/feed.xml
 feed:
   path: /Blog/feed.xml
+#Include necessary to have non-blog pages
 include: ["_pages"]
 
+#Author sidebar info
 author:
   name: David Cottingham
   avatar: "/assets/images/lantern_icon_square_no_bg.png"
@@ -42,10 +54,12 @@ footer:
 permalink: /Blog/:year/:month/:day/:title/
 timezone: America/New_York
 
+#Necessary for github pages to handle post tags
 tag_archive:
   type: liquid
   path: /Blog/Tags/
 
+#Default Front Matter for pages and posts
 defaults:
   # blog posts
   - scope:
@@ -54,10 +68,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      share: true
-      related: true
-      classes: wide
+      read_time: true #Estimate read time for blog post
+      share: true #Add share button on all blog posts
+      related: true #Add built-in "related" blog post suggestions
+      classes: wide #blog posts won't ever have TOC, so make them fill whole page
   # pages
   - scope:
       path: ""
@@ -66,7 +80,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  # sidebar nav
+  # Add sidebar navigation on all pages
   - scope:
       path: ""
     values:

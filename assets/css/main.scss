@@ -8,6 +8,18 @@
   color: white;
 }
 
+.caption-image {
+  display: block;
+  padding: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.caption-image figcaption {
+  margin: auto;
+  text-align: center;
+}
+
 ul.summary_list {
   columns: 2;
   column-fill: balance;
