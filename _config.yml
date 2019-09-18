@@ -6,7 +6,7 @@ minimal_mistakes_skin: "neon"
 #Title in browser window titlebar at the top of the pages
 title: Broken Lantern
 #Subtitle shown below title at top of pages. Optional
-subtitle: Hobby programming and electronics projects and blog
+subtitle: Hobby programming and electronics projects
 #Image shown to right of title and subtitle at top of pages
 logo: "/assets/images/lantern_icon_no_bg.png"
 #Separates site title and page titles in browser window titlebar

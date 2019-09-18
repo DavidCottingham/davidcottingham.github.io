@@ -1,11 +1,17 @@
 ---
-#main style override
+  #main style override
+  #main Sass file needs front matter
 ---
+
 @charset "utf-8";
 
 .btn-reddit {
   background-color: #FF4300;
   color: white;
+}
+
+.btn-wide {
+  max-width: 45%
 }
 
 .caption-image {
