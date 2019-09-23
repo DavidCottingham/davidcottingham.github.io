@@ -43,6 +43,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/davidcottingham"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/davidcottingham"
     - label: "Keybase"
       icon: "fab fa-fw fa-keybase"
       url: "https://keybase.io/davidcottingham"
@@ -52,6 +55,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/davidcottingham"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/davidcottingham"
 
 # Blog posts
 permalink: /Blog/:year/:month/:day/:title/
